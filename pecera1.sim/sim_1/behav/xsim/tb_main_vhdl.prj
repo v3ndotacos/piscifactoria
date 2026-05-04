@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../pecera1.srcs/sources_1/new/main.vhd" \
+"../../../../pecera1.srcs/sources_1/new/pwm.vhd" \
+"../../../../pecera1.srcs/sim_1/new/a.vhd" \
+
+# Do not sort compile order
+nosort
