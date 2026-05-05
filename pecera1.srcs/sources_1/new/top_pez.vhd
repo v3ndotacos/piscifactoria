@@ -42,7 +42,7 @@ begin
 
     MUSCULOS: actuadores port map(
         clk => clk,
-        datos_in => cable_compa_a_ti,
+        datos_in => cable_compa_a_ti,   
         bomba_h2o => led(2),
         pwm_vent => led(1),
         bomba_o2 => led(0)
